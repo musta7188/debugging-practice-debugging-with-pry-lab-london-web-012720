@@ -1,7 +1,10 @@
 
 
-super_mario_party
+
 
 def super_mario_party
-  "Sorry, your princess is in another castle"
+call =   "Sorry, your princess is in another castle"
+call
 end
+
+puts super_mario_party
