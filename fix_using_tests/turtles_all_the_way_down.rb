@@ -9,7 +9,7 @@ def turtles
 end
 
 def turtle_traits(turtles)
-  turtles.each do |turtle|
+  turtles.select do |turtle|
     turtle[:traits]
 
   end
