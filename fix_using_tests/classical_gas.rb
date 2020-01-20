@@ -6,7 +6,7 @@ class GasStation
   # https://www.rubyguides.com/2018/11/attr_accessor/
   # https://stackoverflow.com/questions/20018784/attr-accessor-vs-attr-reader-instance-variables/20018831
 
-  attr_reader :brand, :unleaded_price #creates other methods
+  attr_accessor :brand, :unleaded_price #creates other methods
 
   def initialize(brand, unleaded_price)
     @brand = brand             #equal string
