@@ -12,7 +12,7 @@ greeting
 end
 
 
-def play_game(player2)
+def play_game(player1, player2)
 
 greeting =   "#{player1} is better than #{player2}"
 
