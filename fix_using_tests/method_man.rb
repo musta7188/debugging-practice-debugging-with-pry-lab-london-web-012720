@@ -13,3 +13,5 @@ def play_game(player2)
   "#{player1} is better than #{player2}"
 
 end
+
+print start_game
