@@ -14,4 +14,4 @@ def play_game(player2)
 
 end
 
-print start_game
+print start_game(player1, player2)
