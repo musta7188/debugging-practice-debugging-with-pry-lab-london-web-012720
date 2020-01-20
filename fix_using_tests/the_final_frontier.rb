@@ -13,9 +13,11 @@ def crew
   ["Geordi", "Data", "Worf", "William", "Beverly", "Deanna"]
 end
 
-def greet_crew (crew)
-  crew.each {|crew_member| "Hello #{crew_member}."}
-  binding.pry
+def greet_crew(crew)
+   crew.each do |crew_member|
+  puts "Hello #{crew_member}"
+
+end
 end
 
 def engage
