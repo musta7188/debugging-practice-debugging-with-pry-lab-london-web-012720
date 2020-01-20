@@ -5,7 +5,7 @@ player2 = "Bullwinkle"
 
 def start_game(player1, player2)
 
-greeting =  "Hello #{player1} & #{playar2}"
+greeting =  "Hello #{player1} & #{player2}"
 
 greeting
 
