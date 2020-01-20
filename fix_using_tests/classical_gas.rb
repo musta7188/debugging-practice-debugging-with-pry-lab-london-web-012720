@@ -11,7 +11,7 @@ class GasStation
   def initialize(brand, unleaded_price)
     @brand = brand             #equal string
     @unleaded_price = unleaded_price #equal number
-    binding.pry
+
 end
 end
 
